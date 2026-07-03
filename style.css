@@ -5,6 +5,7 @@
 
 html, body {
     font-family: 'Jost', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f7fc;
 }
 
 .container {
@@ -77,5 +78,71 @@ html, body {
 
 .notification {
     color: #1967D2;
+    cursor: pointer;
+}
+
+/* Hero section start */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.number {
+    color: #1967D2;
+}
+
+.hero-text {
+    font-size: 50px;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.des {
+    color: #77838F;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+.searches {
+    color: #77838F;
+    margin-top: 25px;
+}
+
+.search-inputs {
+    background-color: #fff;
+    /* border: 1px solid black; */
+    width: 700px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-inputs > input {
+    border: none;
+    padding: 30px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.search-inputs > input::placeholder {
+    font-size: 20px;
+}
+
+.search-inputs > input:focus {
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 20px 20px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1967D2;
+    color: #fff;
     cursor: pointer;
 }
